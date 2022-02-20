@@ -1,0 +1,89 @@
+body {
+    background-image: url(https://eestechchallenge.eestec.net/wp-content/uploads/2021/02/website-Background-01.png);
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    background-color: #185280;
+    color: #ffffff;
+    width: 100%;
+    height: 98px;
+}
+
+#header-content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#mainbody {
+    text-align: center;
+}
+
+#branches {
+    margin-top: 55px;
+    font-size: 55px;
+}
+
+#logo {
+    margin-top: 15px;
+}
+
+#menu {
+    display: flex;
+    margin-left: 21%;
+    margin-top: 13px;
+    width: 800px;
+}
+
+.menutab {
+    margin-left: 35px;
+    list-style: none;
+    max-width: 400px;
+    font-size: 21;
+    text-decoration: solid;
+    text-align: end;
+}
+
+
+#all-branches {
+    display: flex;
+    width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.content-wrapper {
+    height: 570px;
+    width: 380px;
+    padding: 21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-wrapper {
+    height: 377px;
+    width: 377px;
+    border-radius: 21px 21px 21px 21px;
+}
+
+.button-wrapper {
+    background-color: #328CFF;
+    font-size: 21px;
+    padding: 12px 24px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #77b3ff;
+    border-radius: 5px 5px 5px 5px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.branch-name {
+    font-size: 21px;
+    text-align: center;
+}
